@@ -21,3 +21,10 @@ class Coffee
   end
 
 end
+
+class Espresso < Coffee
+
+  def drink
+    self.full_amount -= 1.0
+  end
+end 
